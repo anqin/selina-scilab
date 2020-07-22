@@ -1,0 +1,17 @@
+{
+  "lockfileVersion": 1,
+  "name": "selina-scilab-1",
+  "version": "1.0.0",
+  "description": "my selina sci-lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "An Qin",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "docxtemplater": "^3.17.9",
+    "paddlejs": "^1.0.6"
+  }
+}

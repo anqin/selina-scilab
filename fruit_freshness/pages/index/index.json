@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#333",
+  "navigationBarTitleText": "水果新鲜度预测",
+  "navigationBarTextStyle": "white"
+}
