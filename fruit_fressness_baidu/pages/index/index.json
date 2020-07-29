@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "水果新鲜度预测",
+    "usingSwanComponents": {
+        "paddlejs": "dynamicLib://paddlejs/paddlejs"
+    }
+}

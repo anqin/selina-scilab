@@ -1,0 +1,17 @@
+<view class="container">
+    <!--index.wxml-->
+    <image style="width:100%; height: 300px; " src="{{imgPath}}" mode="aspectFit"></image>
+    <button bindtap="chooseImage" class="btn">选择图片</button>
+    <button bindtap="doPredict" class="btn" type="primary">新鲜度预测</button>
+    <!-- 返回结果 -->
+    <view class="result" s-if="resultType">预测结果：{{resultType}}</view>
+    <view class="result" s-if="resultVal">预测可信度：{{resultVal}}</view>
+    <view class="result" s-if="time">耗时{{time}}毫秒</view>
+
+    <paddlejs options="{{options}}" status="{{status}}" imgBase64="{{imgBase64}}" imgPath="{{imgPath}}" bindchildmessage="predict" />
+
+    <view s-if="isShow" class="loading"><text class="loading-text"> loading… </text></view>
+
+</view>
+
+
