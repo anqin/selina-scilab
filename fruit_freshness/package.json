@@ -11,7 +11,7 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "docxtemplater": "^3.17.9",
+    "docxtemplater": "^3.31.5",
     "paddlejs": "^1.0.6"
   }
 }
